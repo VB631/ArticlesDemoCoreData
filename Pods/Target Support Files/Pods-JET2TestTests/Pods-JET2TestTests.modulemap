@@ -1,0 +1,6 @@
+framework module Pods_JET2TestTests {
+  umbrella header "Pods-JET2TestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
