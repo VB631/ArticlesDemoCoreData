@@ -63,7 +63,7 @@ class ArticlesViewModel: TemplateMainService,AppMainServiceDelegate {
         self.mCurOperation = methodName
         self.serverdelegate = delegate
         super.mainServerdelegate = self
-        super.getCallWithAlamofire(serverUrl: (ApiName.GETARTICLESLIST + ("page=\(page)") + ("limit=\(limit)")))
+        super.getCallWithAlamofire(serverUrl: (ApiName.GETARTICLESLIST + ("page=\(page)") + ("&limit=\(limit)")))
         
     }
     
